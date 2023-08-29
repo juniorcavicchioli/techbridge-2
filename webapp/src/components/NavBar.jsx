@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function NavBar() {
     return (
         <nav className='bg-amber-500 p-6 flex justify-between text-black items-center'>
-      <a href='#'><h1 className="text-2xl font-bold">Techbridge</h1></a>
+      <a href='/'><h1 className="text-2xl font-bold">Techbridge</h1></a>
 
       <ul className="flex gap-10 text-sm items-center">
         <li>

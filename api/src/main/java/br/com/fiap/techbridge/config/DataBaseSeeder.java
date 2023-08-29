@@ -103,6 +103,7 @@ public class DataBaseSeeder implements CommandLineRunner{
                         .razaoSocial("VSTP Educacao S.A.")
                         .ramo("Instituição acadêmica")
                         .cnpj("11.319.526/0007-40")
+                        .imagemUrl("https://play-lh.googleusercontent.com/S70rI7VrwLic7_p-ax7iAOOopQhcPCzmqyLe5RLJmApTpkgTRaCwWsTNN1Uv1t_t3Pp5=w240-h480-rw")
                         .build(),
                 Empresa.builder()
                         .nome("Mercearia do Zé")

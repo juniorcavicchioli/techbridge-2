@@ -38,6 +38,8 @@ public class Empresa {
     private String ramo;
     @Column(name = "cnpj", length = 18)
     private String cnpj;
+    @Column(name = "imagem_url")
+    private String imagemUrl = "https://i.pravatar.cc/100";
 
     @Embedded
     private Endereco endereco;
